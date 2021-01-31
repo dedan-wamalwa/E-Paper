@@ -1,0 +1,30 @@
+
+body {background-color: black;}
+p	{color:red;text-align:center;}
+h1 {text-align:center;color:rgb(10,10,245);}
+h2	{text-align:center;color: white;}
+h3 {text-align:center;color: white;}
+td {color: white;}
+a:link{
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active{
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+a:visited{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+a:hover{
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+
+}

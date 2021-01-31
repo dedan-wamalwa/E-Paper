@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Form 1</title>
+	<meta charset="utf-8">
+	<meta name="view-point" content="width=device-width, intial scale=1.0">
+	<meta name="keywords" content="corona,covid-19,coronavirus,daily dedan">
+</head>
+<body>
+	<form>
+	<table>
+	<tr><td><label for="fname">First Name :</label><br>
+	<input type="text" name="fname" id="lname" value="First"></td>
+	<td><label for="midname">Middle Name:</label><br>
+	<input type="text" name="midname" id="midname" value="Middle"></td>
+	<td><label for="lname">Last Name:</label><br>
+	<input type="text" name="lname" id="lname" value="Last"></td>
+	</table>
+	<!--</form>-->
+<p>Gender:<br>
+	<!--<form>-->
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="Other">
+		<label for="other">Other</label><br>
+	<!--</form>-->
+<p>Qualification(s):<br>
+	<!--<form>-->
+		<input type="checkbox" id="certificate" name="education" value="certificate">
+		<label for="certificate">Certificate</label><br>
+		<input type="checkbox" id="diploma" name="education" value="diploma">
+		<label for="diploma">Diploma</label><br>
+		<input type="checkbox" id="degree" name="education" value="degree">
+		<label for="degree">Degree</label><br>
+		<input type="checkbox" id="masters" name="education" value="masters">
+		<label for="masters">Masters</label><br>
+		<input type="checkbox" id="phd" name="education" value="phd">
+		<label for="phd">PhD</label>
+	<!--</form>-->
+	<p>Choose your region</p>
+		<label for="region" >Region:-</label>
+		<select id="region" name="region">
+			<option value="01">Nairobi</option>
+			<option value="02" selected>Coast</option>
+			<option value="03">Rift Valley</option>
+			<option value="04">Central</option>
+			<option value="05">Eastern</option>
+			<option value="06">North Eastern</option>
+			<option value="07">Western</option>
+			<option value="08">Nyanza</option>
+		</select>
+	<p>Name a region(s) you have lived before</p>
+		<select id="regions" name="regions" size="8" multiple>
+			<option value="001">Nairobi</option>
+			<option value="02" selected>Coast</option>
+			<option value="03">Rift Valley</option>
+			<option value="04">Central</option>
+			<option value="05">Eastern</option>
+			<option value="06">North Eastern</option>
+			<option value="07">Western</option>
+			<option value="08">Nyanza</option>
+		</select>
+		<p></p>
+		<!--<textarea name="feedback" rows="20" cols="20">-->
+		<!--// using CSS--><textarea name="feedback" style="width:400px ; height:200px;">
+	
+		</textarea>
+		<p></p>
+		<input type="submit" value="SUBMIT">
+		<input type="reset" value="RESET">
+	</form>
+</body>
+</html>
